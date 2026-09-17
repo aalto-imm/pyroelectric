@@ -1,0 +1,175 @@
+Date: 2026-09-16 15:02:37
+Running on: mylly1
+Temporary directory: /chemtemp/sabine/2834052
+Executable: /apps/chem/crystal/23-1.0.1/install/bin/properties
+Output: /home/sabine/BaTiO3_tetra/Alamode_oldPyro/polari/pyroTemp/480_mode15.prop.out
+Properties input data 480_mode15.d3
+NEWK
+4 4
+1 0
+POLARI
+ENDCreating temporary directory /chemtemp/sabine/2834052
+SCF wavefunction 480_mode15.w is available as /chemtemp/sabine/2834052/fort.9
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 16 09 2026 TIME 15:02:37.1
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+
+ *******************************************************************************
+ converted and standardized from ase Atoms() object for BaTiO3 in space group 1  
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(PERDEW-BURKE-ERNZERHOF)[PERDEW-BURKE-ERNZERHOF]
+
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    25.0000
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+         3.96924    0.00000    0.00000
+         0.00000    3.96924    0.00000
+         0.00000    0.00000    4.09160
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+    3.96924    3.96924    4.09160     90.0000   90.0000   90.0000      64.46273
+ *******************************************************************************
+ N. OF ATOMS PER CELL         5 COULOMB OVERLAP TOL          (T1) 10**   -8
+ NUMBER OF SHELLS            39 COULOMB PENETRATION TOL      (T2) 10**   -8
+ NUMBER OF AO               106 EXCHANGE OVERLAP TOL         (T3) 10**   -8
+ N. OF ELECTRONS PER CELL    56 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -8
+ CORE ELECTRONS PER CELL     24 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -16
+ N. OF SYMMETRY OPERATORS     1 POLE ORDER IN MONO ZONE                   4
+ CORE  PSEUDO POTENTIAL         TOL. ON PSEUDO              (TP) 10**- 6
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1  256 BA    6     0.000    -0.000     0.026   2.732E-01       8.338
+    2    8 O     7     1.985     1.985     3.849   1.200E+00       8.997
+    3    8 O     7     1.985     0.000     2.018   1.200E+00       9.076
+    4    8 O     7     0.000     1.985     2.018   1.200E+00       9.076
+    5   22 TI   12     1.985     1.985     2.163   2.200E-01      20.512
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -1.1006856451918E+03  CONVERGENCE ON ENER       -1.840E-08
+ KIN. ENERGY   1.0808680451268E+03  VIR. COEFF.           1.01614340E+00
+ N. OF SCF CYCLES                9  FERMI ENERGY              -0.140E+00
+ WEIGHT OF F(I) IN F(I+1)      80
+ SHRINK. FACT.(MONKH.)     8  8  8  SHRINKING FACTOR(GILAT NET)        8
+ NUMBER OF K POINTS IN THE IBZ 260  CELL VOLUME (A.U.)        435.016069
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    15    15    14
+ NO.OF VECTORS CREATED 6999 STARS  514 RMAX    90.00942 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.02
+
+ MATRIX SIZE: P(G)  261500, F(G)   46637, P(G) IRR  136420, F(G) IRR   48145
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 245
+
+
+ CAPPA:IS1  8;IS2  8;IS3  8; K PTS MONK NET 260; SYMMOPS:K SPACE   2;G SPACE   1
+
+
+ CAPPA:IS1  4;IS2  4;IS3  4; K PTS MONK NET  36; SYMMOPS:K SPACE   2;G SPACE   1
+
+ *******************************************************************************
+ RESTART WITH NEW K POINTS NET
+ *******************************************************************************
+ POINTS IN THE IBZ                  36 POINTS(GILAT NET)                36
+ SHRINK FACTORS(MONK.)         4  4  4 SHRINK FACTOR(GILAT)              4
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS =  4)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-R(  2  0  0)   4-C(  0  1  0)
+   5-C(  1  1  0)   6-C(  2  1  0)   7-C(  3  1  0)   8-R(  0  2  0)
+   9-C(  1  2  0)  10-R(  2  2  0)  11-C(  0  0  1)  12-C(  1  0  1)
+  13-C(  2  0  1)  14-C(  3  0  1)  15-C(  0  1  1)  16-C(  1  1  1)
+  17-C(  2  1  1)  18-C(  3  1  1)  19-C(  0  2  1)  20-C(  1  2  1)
+  21-C(  2  2  1)  22-C(  3  2  1)  23-C(  0  3  1)  24-C(  1  3  1)
+  25-C(  2  3  1)  26-C(  3  3  1)  27-R(  0  0  2)  28-C(  1  0  2)
+  29-R(  2  0  2)  30-C(  0  1  2)  31-C(  1  1  2)  32-C(  2  1  2)
+  33-C(  3  1  2)  34-R(  0  2  2)  35-C(  1  2  2)  36-R(  2  2  2)
+
+ FERMI ENERGY AND DENSITY MATRIX CALCULATION ON COMPUTED EIGENVECTORS
+ DENSITY MATRIX AT SCF CYCLE (  9+1)
+
+ INSULATING STATE
+ TOP OF VALENCE BANDS -    BAND     28; K   36; EIG -1.3953767E-01 AU
+ TOP OF VALENCE BANDS -    BAND     28; K    1; EIG -1.5772713E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     29; K    1; EIG  5.0716223E-03 AU
+ INDIRECT ENERGY BAND GAP:   3.9350 eV
+
+ CORE DENSITY MATRIX CALCULATION
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.40 TCPU        0.40
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SMAT        TELAPSE        0.41 TCPU        0.41
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT POLAR2      TELAPSE        0.46 TCPU        0.45
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%                                                                           %%
+ %%                         SPONTANEOUS POLARIZATION                          %%
+ %%                       THROUGH BERRY PHASE APPROACH                        %%
+ %%                                                                           %%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                     THIS CALCULATION REFERS TO JUST ONE OF
+                THE TWO GEOMETRIES REQUIRED IN THE EVALUATION OF
+                THE SPONTANEOUS POLARIZATION / PIEZOELECTRICITY
+
+                    DATA HAVE BEEN STORED IN FORTRAN UNIT 27
+
+                 NOW RUN THE CALCULATION FOR THE OTHER GEOMETRY
+                               (IF NOT DONE YET)
+        THEN RUN A THIRD CALCULATION WITH THE KEYWORD "SPOLBP" / "PIEZOBP"
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT POLARI      TELAPSE        0.69 TCPU        0.69
+ ENDPROP   
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.69 TCPU        0.69
+ EEEEEEEEEE TERMINATION  DATE 16 09 2026 TIME 15:02:37.8
+------------------------------------------------------
+properties finished normally
+------------------------------------------------------
+File fort.27 saved as /home/sabine/BaTiO3_tetra/Alamode_oldPyro/polari/pyroTemp/480_mode15.polari
+Temporary directory /chemtemp/sabine/2834052 removed
+Date: 2026-09-16 15:02:37

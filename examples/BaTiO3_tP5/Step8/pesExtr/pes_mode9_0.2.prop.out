@@ -1,0 +1,162 @@
+Date: 2026-03-26 13:41:36
+Running on: mylly1
+Temporary directory: /chemtemp/sabine/762098
+Executable: /apps/chem/crystal/23-1.0.1/install/bin/properties
+Output: /home/sabine/BaTiO3_tetra/Alamode_oldPyro/polari/pesScan/pes_mode9_0.2.prop.out
+Properties input data pes_mode9_0.2.d3
+SPOLBP
+ENDCreating temporary directory /chemtemp/sabine/762098
+SCF wavefunction pes_mode9_0.2.w is available as /chemtemp/sabine/762098/fort.9
+File pes_mode9_0.2.polari0 is available as /chemtemp/sabine/762098/fort.28
+File pes_mode9_0.2.polari1 is available as /chemtemp/sabine/762098/fort.29
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 26 03 2026 TIME 13:41:36.5
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+
+ *******************************************************************************
+ converted and standardized from ase Atoms() object for BaTiO3 in space group 1  
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(PERDEW-BURKE-ERNZERHOF)[PERDEW-BURKE-ERNZERHOF]
+
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    25.0000
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+         3.96924    0.00000    0.00000
+         0.00000    3.96924    0.00000
+         0.00000    0.00000    4.09160
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+    3.96924    3.96924    4.09160     90.0000   90.0000   90.0000      64.46273
+ *******************************************************************************
+ N. OF ATOMS PER CELL         5 COULOMB OVERLAP TOL          (T1) 10**   -8
+ NUMBER OF SHELLS            39 COULOMB PENETRATION TOL      (T2) 10**   -8
+ NUMBER OF AO               106 EXCHANGE OVERLAP TOL         (T3) 10**   -8
+ N. OF ELECTRONS PER CELL    56 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -8
+ CORE ELECTRONS PER CELL     24 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -16
+ N. OF SYMMETRY OPERATORS     1 POLE ORDER IN MONO ZONE                   4
+ CORE  PSEUDO POTENTIAL         TOL. ON PSEUDO              (TP) 10**- 6
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1  256 BA    6     0.000     0.000     0.026   2.732E-01       8.340
+    2    8 O     7     1.985     1.984     3.961   1.200E+00       9.037
+    3    8 O     7     1.985    -0.000     2.021   1.200E+00       9.065
+    4    8 O     7     0.000     1.985     1.951   1.200E+00       9.069
+    5   22 TI   12     1.985     1.985     2.147   2.200E-01      20.489
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -1.1006922016987E+03  CONVERGENCE ON ENER       -2.927E-08
+ KIN. ENERGY   1.0806213334943E+03  VIR. COEFF.           1.01600751E+00
+ N. OF SCF CYCLES               10  FERMI ENERGY              -0.148E+00
+ WEIGHT OF F(I) IN F(I+1)      80
+ SHRINK. FACT.(MONKH.)     8  8  8  SHRINKING FACTOR(GILAT NET)        8
+ NUMBER OF K POINTS IN THE IBZ 260  CELL VOLUME (A.U.)        435.016069
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    15    15    14
+ NO.OF VECTORS CREATED 6999 STARS  514 RMAX    90.00942 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.02
+
+ MATRIX SIZE: P(G)  262092, F(G)   47173, P(G) IRR  136716, F(G) IRR   48681
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 245
+
+
+ CAPPA:IS1  8;IS2  8;IS3  8; K PTS MONK NET 260; SYMMOPS:K SPACE   2;G SPACE   1
+
+
+ *****************************************************************************
+ *                                                                           *
+ *                         SPONTANEOUS POLARIZATION                          *
+ *                    EVALUATED THROUGH THE  BERRY  PHASE                    *
+ *                                                                           *
+ *****************************************************************************
+
+         a, b, c (ANGSTROM), ALPHA, BETA, GAMMA (DEGREES) V (ANGSTROM**3)
+                             a=  3.96924    ALPHA=  90.00000
+                             b=  3.96924    BETA =  90.00000
+                             c=  4.09160    GAMMA=  90.00000
+                                       V=   64.46273
+
+                               LATTICE VECTORS COMPONENTS
+            DIRECT (ANGSTROM)                    RECIPROCAL (ANGSTROM-1)
+         X          Y          Z                  X          Y          Z
+      3.96924    0.00000    0.00000            1.58297    0.00000    0.00000
+      0.00000    3.96924    0.00000            0.00000    1.58297    0.00000
+      0.00000    0.00000    4.09160            0.00000    0.00000    1.53563
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          INFORMATION ON SYSTEM A TO THE LEFT ON SYSTEM B TO THE RIGHT
+
+                         ATOMIC FRACTIONAL COORDINATES
+    ATOM       a        b        c              a        b        c
+    1 BA    0.00000  0.00000  0.00640        0.00000  0.00000  0.00640
+    2 O     0.50000  0.50000  0.96799        0.49998  0.49989  0.96800
+    3 O     0.50000  0.00000  0.48533        0.50002 -0.00001  0.49399
+    4 O     0.00000  0.50000  0.48533        0.00000  0.50007  0.47671
+    5 TI    0.50000  0.50000  0.52484        0.50000  0.50000  0.52484
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+          POLARIZATION, P, PROJECTED ALONG THE CARTESIAN AXES (C/m**2)
+                               X          Y          Z
+                       P  -0.000003   0.000084  -0.000011
+
+                 QUANTUM   0.986536   0.986536   1.016947
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SPOLBP      TELAPSE        0.03 TCPU        0.03
+ ENDPROP   
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.03 TCPU        0.03
+ EEEEEEEEEE TERMINATION  DATE 26 03 2026 TIME 13:41:36.5
+------------------------------------------------------
+properties finished normally
+------------------------------------------------------
+Temporary directory /chemtemp/sabine/762098 removed
+Date: 2026-03-26 13:41:36
