@@ -164,10 +164,10 @@ Running the following command in the console
 will produce the following plot
 
 
-![Harmonic phonon dispersion of BaTiO3](/mfFigures/tetra_BaO3Ti_harm.png "Harmonic phonon dispersion of BaTiO3")
+![Harmonic phonon dispersion of BaTiO3](mdFigures/tetra_BaO3Ti_harm.png "Harmonic phonon dispersion of BaTiO3")
 
 
-> Note: The script has an inbuild method to convert plain text chemical formulas to the right format. Changes (e.g. 2+/3-) will be set to superscript and numbers in the formular will be set as subscript.
+> Note: The script has a built-in method to convert plain text chemical formulas to the right format. Changes (e.g. 2+/3-) will be set to superscript and numbers in the formular will be set as subscript.
 
 
 
@@ -244,7 +244,7 @@ The anphon calculation will produce a .scph_bands file, which can be plotted wit
 producing the following plot:
 
 
-![Anharmonic phonon dispersion of BaTiO3](/mfFigures/tetra_BaO3Ti_anharm.png "Anharmonic phonon dispersion of BaTiO3")
+![Anharmonic phonon dispersion of BaTiO3](mdFigures/tetra_BaO3Ti_anharm.png "Anharmonic phonon dispersion of BaTiO3")
 
 
 The same optional arguments as in step 3 are available. If some of the steps in the SCPH do not converge properly or if only certain temperatures shall be plotted, the `-temp` option of the script can be set, followed by the desired temperatures. 
@@ -396,7 +396,7 @@ All .d12 (first) and .d3 (after) calculations need to be run with CRYSTAL to gen
 
 ### Step 7.3: Automatic option for the temperature dependent pyro displacements
 
-As mentioned in the general section of step 7, does a set of properly converged eigenvectors show the symmetry of the irreducible representation when summed up over the _x_, _y_, and _z_ contributions. Therefore the option `pyroa`/`"pyro automatic"` will first analyze the symmetry of the eigenvectors and then displace the relevant A$_{(1)(g)}$ modes along _-z_. Doing so, three .txt files will be generated:
+As mentioned in the general section of step 7, does a set of properly converged eigenvectors show the symmetry of the irreducible representation when summed up over the _x_, _y_, and _z_ contributions. Therefore the option `pyroa`/`"pyro automatic"` will first analyze the symmetry of the eigenvectors and then displace the relevant $A_1$ modes along _-z_. Doing so, three .txt files will be generated:
 
 - `evecProp.txt` gives a table how the eigenvectors propagate over the different temperatures
 - `evecPol.txt` gives a table with the possible polarization for each mode by giving the direction (_x_, _y_, or _z_) and the value of the summed up net-displacement along that axis. If the line is empty the modes are of a symmetry without degree of freedom along the Cartesian axes. If there is a "-" in front of the direction it shows that the original eigenvector needs to be flipped to align with right direction
@@ -566,7 +566,7 @@ The following line in the console should produce the plot below:
 	pyro3.py -s plt -opt pes -temp 300 -mode 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
 
-![PES scan for all modes of BaTiO3](/mfFigures/tetra_BaO3Ti_pes.png "PES scan for all modes of BaTiO3")
+![PES scan for all modes of BaTiO3](mdFigures/tetra_BaO3Ti_pes.png "PES scan for all modes of BaTiO3")
 
 
 
@@ -596,7 +596,7 @@ The following line in the console should produce the plot below:
 	pyro3.py -s plt -opt pyro -mode 6 12 15 -temp 50 100 150 200 250 300 350 400 450 500
 
 
-![Pyroelectric coefficients for A1 modes of BaTiO3](/mfFigures/tetra_BaO3Ti_pyro.png "Pyroelectric coefficients for A1 modes of BaTiO3")
+![Pyroelectric coefficients for A1 modes of BaTiO3](mdFigures/tetra_BaO3Ti_pyro.png "Pyroelectric coefficients for A1 modes of BaTiO3")
 
 
 >If data point seem to jump for one mode between positive and negative values the eigenvectors might not have been flipped. As a side note it should be mentioned, that flipped and unflipped eigenvectors will not produce values for the pyroelectric coefficients as X and -X. Since pyroelectric compounds have a net polarization, there might be a difference between the positive and negative coefficients. So just taking absolute values might still result in some small jumps between temperatures.
