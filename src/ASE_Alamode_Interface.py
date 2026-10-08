@@ -1,7 +1,8 @@
 """
-This interface will replace the displace.py and extract.py scripts that are normally used to interact with the Alamode program
+This interface uses Code from Terumasa Tadano's displce.py, extract.py, and GenDisplacement.py distributed via the Alamode gitHub repository. The code was used based on its MIT Lincense (MIT). 
 
-It will contain the main class 'ALAMODE' which will load upon calling all relevant information from an aseAtoms object (numbers positions, etc.) -> For now coordinates and co will be sorted to handle them more human readable, later on those options will prob. be omitted
+
+This script contains the main class 'ALAMODE' which will load upon calling all relevant information from an aseAtoms object (numbers positions, etc.) -> For now coordinates and co will be sorted to handle them more human readable, later on those options will prob. be omitted
 
 it will include two functions displace() and extract() that will handle creating displacements and extracting forces depending on the calculator set for the aseAtoms object
 
