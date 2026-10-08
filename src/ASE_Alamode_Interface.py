@@ -1,5 +1,5 @@
 """
-This interface uses Code from Terumasa Tadano's displce.py, extract.py, and GenDisplacement.py distributed via the Alamode gitHub repository. The code was used based on its MIT Lincense (MIT). 
+This interface uses code from displace.py, extract.py, and GenDisplacement.py included in Terumasa Tadano's ALAMODE (https://github.com/alamode-code/alamode). ALAMODE is licensed with MIT and Copyright (c) 2014 Terumasa Tadano. 
 
 
 This script contains the main class 'ALAMODE' which will load upon calling all relevant information from an aseAtoms object (numbers positions, etc.) -> For now coordinates and co will be sorted to handle them more human readable, later on those options will prob. be omitted
